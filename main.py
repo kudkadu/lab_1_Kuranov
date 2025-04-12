@@ -16,7 +16,7 @@ def add_customer():
     return customer['id']
 
 def add_car():
-    prdfghjklint("\n--- Добавление нового автомобиля ---")
+    print("\n--- Добавление нового автомобиля ---")
     make = input("Марка: ")
     model = input("Модель: ")
     year = input("Год выпуска: ")
